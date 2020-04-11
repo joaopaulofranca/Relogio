@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-image: linear-gradient(to top, #171717, black);
+}
+
+.container2 {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color: #080808;
+}
+
+#horario {
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    color: red;
+    font-size: 100px;
+}
+
+.cronometro {
+    width: 50%;
+    height: auto;
+}
+
+.contagemRegressiva {
+    width: 50%;
+    height: auto;
+}
+
+.relogioCro {
+    color: red;
+    font-size: 50px;
+}

@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Relógio</title>
+    <link rel="stylesheet" href="app/css/styles.css">
+    <link rel="stylesheet" href="app/main.js">
+</head>
+
+<body>
+    <div class="principal">
+        <div class="container">
+            <div id="horario" align="center">
+
+            </div>
+            <div class="dia">
+
+            </div>
+
+        </div>
+        <div class="container2"><br>
+            <div class="cronometro">
+                <h2 align="center">CRONOMETRO</h2>
+                <BR>
+                <div class="relogioCro" align="center">
+                    <span id="timer_horas">00</span>:
+                    <span id="timer_minutos">00</span>:
+                    <span id="timer_segundos">00</span>:
+                    <span id="timer_decimos">00</span>
+                </div><br>
+                <div class="botao" align="center">
+                    <button onclick="iniciarCronometro();">START</button>
+                    <button onclick="zerarCronometro();">ZERAR</button>
+
+                </div>
+            </div>
+            <div class="contagemRegressiva">
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="./app/main.js"></script>
