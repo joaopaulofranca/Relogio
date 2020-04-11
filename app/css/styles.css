@@ -5,14 +5,21 @@
 
 .container {
     width: 100%;
-    height: 50%;
+    height: 59%;
     float: left;
-    background-image: linear-gradient(to top, #171717, black);
+    background-color: #121212;
+}
+
+.divisoria {
+    width: 100%;
+    height: 1%;
+    float: left;
+    background-color: #171717;
 }
 
 .container2 {
     width: 100%;
-    height: 50%;
+    height: 40%;
     float: left;
     background-color: #080808;
 }
@@ -23,6 +30,11 @@
     margin-top: 5%;
     color: red;
     font-size: 100px;
+}
+
+.tituloCronometro {
+    color: #252525;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cronometro {
@@ -38,4 +50,33 @@
 .relogioCro {
     color: red;
     font-size: 50px;
+}
+
+#btnZerar {
+    display: none;
+    background-color: red;
+    padding: 1%;
+    color: white;
+    cursor: pointer;
+    border-radius: 7%;
+}
+
+#btnIniciar {
+    background-color: red;
+    padding: 1%;
+    color: white;
+    cursor: pointer;
+    border-radius: 7%;
+}
+
+#btnIniciar:hover {
+    background-color: rgb(161, 0, 0);
+    cursor: pointer;
+    border-radius: 7%;
+}
+
+#btnZerar:hover {
+    background-color: rgb(161, 0, 0);
+    cursor: pointer;
+    border-radius: 7%;
 }

@@ -18,19 +18,21 @@
             </div>
 
         </div>
+        <div class="divisoria">
+        </div>
         <div class="container2"><br>
             <div class="cronometro">
-                <h2 align="center">CRONOMETRO</h2>
+                <p class="tituloCronometro" align="center">CRONOMETRO</p>
                 <BR>
                 <div class="relogioCro" align="center">
                     <span id="timer_horas">00</span>:
                     <span id="timer_minutos">00</span>:
                     <span id="timer_segundos">00</span>:
                     <span id="timer_decimos">00</span>
-                </div><br>
+                </div><br><br>
                 <div class="botao" align="center">
-                    <button onclick="iniciarCronometro();">START</button>
-                    <button onclick="zerarCronometro();">ZERAR</button>
+                    <span id="btnIniciar" onclick="iniciarCronometro();">START</span>
+                    <span id="btnZerar" onclick="zerarCronometro();">RESET</span>
 
                 </div>
             </div>
