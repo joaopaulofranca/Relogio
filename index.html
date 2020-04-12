@@ -13,7 +13,7 @@
             <div id="horario" align="center">
 
             </div>
-            <div class="dia">
+            <div id="dia" align="center">
 
             </div>
 
@@ -22,7 +22,7 @@
         </div>
         <div class="container2"><br>
             <div class="cronometro">
-                <p class="tituloCronometro" align="center">CRONOMETRO</p>
+                <p class="tituloCronometro" align="center">CHRONOMETER</p>
                 <BR>
                 <div class="relogioCro" align="center">
                     <span id="timer_horas">00</span>:
@@ -36,9 +36,26 @@
 
                 </div>
             </div>
-            <div class="contagemRegressiva">
+            <div id="pomodoro-container" align="center">
+                <!-- <div id="container3"> -->
+                <p class="tituloCronometro" align="center">POMODORO TIMER</p><br>
+                <div id="timer">
+                    <div id="time" align="center">
+                        <span id="minutes">25</span>
+                        <span id="colon">:</span>
+                        <span id="seconds">00</span>
+                    </div><br>
+                    <!-- <div id="filler"></div> -->
+                </div>
 
+                <div id="buttons" align="center">
+                    <span class="botaoPomodoro" id="work">START</span>
+                    <span class="botaoPomodoro" id="shortBreak">SHORT BREAK</span>
+                    <span class="botaoPomodoro" id="longBreak">LONG BREAK</span>
+                    <span class="botaoPomodoro" id="stop">STOP</span>
+                </div>
             </div>
+            <!-- </div> -->
         </div>
 
     </div>
@@ -47,3 +64,4 @@
 
 </html>
 <script src="./app/main.js"></script>
+<script src="./app/pomodoro.js"></script>

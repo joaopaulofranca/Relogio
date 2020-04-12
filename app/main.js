@@ -79,3 +79,25 @@ function zerarCronometro() {
     document.getElementById('timer_segundos').innerHTML = "00";
     document.getElementById('timer_decimos').innerHTML = "00";
 }
+
+//-------DATA----------
+function diaFunc() {
+    var dt = new Date();
+    // em mes e ano ele o mes de dezembro e os demais seram sempre um numero anterior pois ele conta as posições e não o mes ex: dez. 12 mas aparece 11
+
+    // var ndt = new Date();
+    // ndt.setDate(dt.getDate() + 2);
+
+    var dia_semana = dt.getDay();
+    var dia = dt.getDate();
+    var mes = dt.getMonth();
+    var ano = dt.getFullYear();
+
+    var meses = new Array("January", "February", "March", "April", "May", "June", "July", "August",
+        "September", "October", "November", "December");
+    var semana = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+
+    var formatDate = semana[dia_semana] + ", " + meses[mes] + " " + dia + ", " + ano;
+    document.getElementById('dia').innerHTML = formatDate;
+}
+setTimeout(diaFunc);
