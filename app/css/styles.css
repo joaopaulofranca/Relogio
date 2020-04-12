@@ -60,7 +60,7 @@
     display: none;
     background-color: red;
     padding: 1%;
-    color: white;
+    color: rgb(235, 235, 235);
     cursor: pointer;
     border-radius: 7%;
     font-family: 'Courier New', Courier, monospace;
@@ -69,7 +69,7 @@
 #btnIniciar {
     background-color: red;
     padding: 1%;
-    color: white;
+    color: rgb(235, 235, 235);
     cursor: pointer;
     border-radius: 7%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -108,7 +108,7 @@
 .botaoPomodoro {
     background-color: red;
     padding: 1%;
-    color: white;
+    color: rgb(235, 235, 235);
     cursor: pointer;
     border-radius: 7%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -124,10 +124,10 @@
 #timer {
     color: red;
     font-size: 50px;
-    border: solid red;
+    border: solid 2px #171717;
     width: 200px;
     height: 65px;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
