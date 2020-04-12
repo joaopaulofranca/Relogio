@@ -59,6 +59,7 @@
     color: white;
     cursor: pointer;
     border-radius: 7%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #btnIniciar {
@@ -67,16 +68,19 @@
     color: white;
     cursor: pointer;
     border-radius: 7%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #btnIniciar:hover {
     background-color: rgb(161, 0, 0);
     cursor: pointer;
     border-radius: 7%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #btnZerar:hover {
     background-color: rgb(161, 0, 0);
     cursor: pointer;
     border-radius: 7%;
+    font-family: 'Courier New', Courier, monospace;
 }
